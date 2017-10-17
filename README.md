@@ -32,8 +32,8 @@ Curl examples for [LANnouncer](https://play.google.com/store/apps/details?id=com
 
 ## Take a photo and return it
 
-`curl 192.168.1.77:1035/?PHOTO=BACK&STSHRINK=TRUE&@DONE@`
+`curl http://192.168.1.77:1035/?PHOTO=BACK&STSHRINK=TRUE&@DONE@`
 
 ## Take a video and store it on the phone
 
-`curl 192.168.1.77:1035/?VIDEO=10`
+`curl http://192.168.1.77:1035/?VIDEO=10`
