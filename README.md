@@ -8,32 +8,32 @@ Curl examples for [LANnouncer](https://play.google.com/store/apps/details?id=com
 
 ## Start strobe
 
-`http://192.168.1.77:1035/?FLASH=CONTINUOUS@DONE@`
+`curl "http://192.168.1.77:1035/?FLASH=CONTINUOUS@DONE@"`
 
 ## Stop strobe
 
-`http://192.168.1.77:1035/?FLASH=STOP@DONE@`
+`curl "http://192.168.1.77:1035/?FLASH=STOP@DONE@"`
 
 ## Play Chime
 
-`curl http://192.168.1.77:1035/?ALARM=CHIME&@DONE@`
+`curl "http://192.168.1.77:1035/?ALARM=CHIME&@DONE@"`
 
 ## Play Siren
 
-`curl http://192.168.1.77:1035/?ALARM=SIREN&@DONE@`
+`curl "http://192.168.1.77:1035/?ALARM=SIREN&@DONE@"`
 
 ## Sound Alarm
 
-`curl http://192.168.1.77:1035/?ALARM=ALARM&@DONE@`
+`curl "http://192.168.1.77:1035/?ALARM=ALARM&@DONE@"`
 
 ## Sound Doorbell
 
-`curl http://192.168.1.77:1035/?ALARM=DOORBELL&@DONE@`
+`curl "http://192.168.1.77:1035/?ALARM=DOORBELL&@DONE@"`
 
 ## Take a photo and return it
 
-`curl http://192.168.1.77:1035/?PHOTO=BACK&STSHRINK=TRUE&@DONE@`
+`curl "http://192.168.1.77:1035/?PHOTO=BACK&STSHRINK=TRUE&@DONE@"`
 
 ## Take a video and store it on the phone
 
-`curl http://192.168.1.77:1035/?VIDEO=10`
+`curl "http://192.168.1.77:1035/?VIDEO=10"`
